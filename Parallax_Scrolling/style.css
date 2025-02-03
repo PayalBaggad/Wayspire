@@ -1,0 +1,128 @@
+html, body {
+    height: 100%;
+    margin : 0;
+    font-size: 16px;
+    font-family:  system-ui, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color : #666;
+}
+
+.img1{
+    background-image: url(images/image-1.jpg);
+    min-height: 100%;
+}
+
+.img2 {
+    background-image: url(images/image-2.jpg);
+    min-height: 400px;
+}
+
+.img3 {
+    background-image: url(images/image-3.jpg);
+    min-height: 400px;
+}
+
+.img4 {
+    background-image: url(images/image-4.jpg);
+    min-height: 400px;   
+}
+
+.img5 {
+    background-image: url(images/image-5.jpg);
+    min-height: 700px;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color:black;
+    font-size: 30px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.textBg {
+    background: #1b1a1ad8;
+    color:rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px  red;
+}
+
+.ptext p {
+    color : rgb(200, 245, 0);
+    font-family: sans-serif;
+    text-transform: none;
+    letter-spacing: 6px;
+    font-size :32px;
+    padding-top: 22px; 
+}
+.img1, .img2, .img3, .img4, .img5 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.content1 {
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.section-dark {
+    background: #282e28;
+    color: #ddd;
+    font-size: large;
+}
+
+.content1 h2{
+    text-transform: Uppercase;
+    letter-spacing: 6px;
+    font-family: 'system-ui';
+    font-size :30px;
+}
+
+.section-light {
+    background-color: #f2fafc;
+    color: #181515;
+    font-size: large;
+}
+
+.img2 .textBg {
+    box-shadow: 5px 5px  rgb(241, 243, 229);
+}
+
+.rainy-section {
+    background: #273a27;
+    color: #ddd;
+    font-size: large;
+}
+
+.img3 .textBg {
+    box-shadow: 5px 5px  rgb(221, 235, 38);
+}
+
+.summer-section {
+    background: #f5f792b6;
+    color: #050505;
+    font-size: large;
+}
+
+.img5 .ptext p {
+    color : rgb(0, 0, 0);
+    font-family: sans-serif;
+    text-transform: none;
+    letter-spacing: 3px;
+    font-size :26px;
+    padding: 18px;
+    margin: 50px;
+    font-weight: bold;
+    background-color: #51ff7c9f;
+    border-radius: 30px;
+    box-shadow: 6px 6px  rgb(0, 44, 11);
+}
+
